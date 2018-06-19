@@ -7,7 +7,7 @@
 using namespace std;
 class CWolf;
 class CGhost;
-class CCreature;
+class CDragon;
 class CCreature
 {
 protected:
