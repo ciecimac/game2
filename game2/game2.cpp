@@ -25,11 +25,11 @@ public:
 		nLifeValue = l;
 		name = name_;
 	}
-	void Hurted(int nPower)
+	void Hurted(int nPow)
 	{
 		//．．．．表现受伤动作的代码
 		cout << name << "受伤害" << endl;
-		nLifeValue -= nPower;
+		nLifeValue -= nPow;
 	}
 	void Attack(CCreature * pobj)
 	{
